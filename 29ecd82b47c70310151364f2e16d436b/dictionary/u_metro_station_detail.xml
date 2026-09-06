@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="c0a2265347038710151364f2e16d43a4" label="Metro Station Detail" max_length="40" name="u_metro_station_detail" type="collection">
+        <element default="true" label="Active" max_length="40" name="u_active" type="boolean"/>
+        <element label="Distance" max_length="20" name="u_distance" type="decimal"/>
+        <element display="true" label="Station Name" max_length="100" name="u_station_name" type="string"/>
+        <element label="Station Code" max_length="20" name="u_station_code" type="string"/>
+        <element label="Line" max_length="50" name="u_line" type="string"/>
+    </element>
+</database>
